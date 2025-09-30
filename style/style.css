@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+@font-face {
+  font-family: 'FonteLogo';
+  src: url("../fonte/GoogleSansCode-Regular.ttf");
+}
+
+
+/* HEADER DA PÁGINA */
+.cabecalho {
+    margin: 15px 120px 0px 120px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background: transparent;;
+    border-radius: 10px;
+    backdrop-filter:  blur(10px);
+    box-shadow: 0px 0px 10px rgba(53, 53, 53, 0.75);
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'FonteLogo' sans-serif;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.cabecalho:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9);
+}
+
+/* CORPO DA TABELA  */
+
+.cadastro {
+    margin: 15px 100px 0px 100px;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter:  blur(30px);
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0px 0px 10px rgba(213, 209, 209, 0.8);
+    transition: 0.5s ease;
+}
+
+.cadastro:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+body {
+    background: url(../imagens/pexels-jplenio-1103970.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
