@@ -26,22 +26,46 @@
     box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9);
 }
 
+/* MENU DE NAVEGAÇÃO */
+.menu {
+    margin: 15px 120px 0px 120px;
+    padding: 10px;
+    text-align: center;
+    background: transparent;
+    border-radius: 10px;
+    backdrop-filter:  blur(10px);
+    box-shadow: 0px 0px 10px rgba(53, 53, 53, 0.75);
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'FonteLogo' sans-serif;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
 /* CORPO DA TABELA  */
 
 .cadastro {
-    margin: 15px 100px 0px 100px;
+    margin: 15px 100px 30px 100px;
     position: relative;
     padding: 10px;
     border-radius: 10px;
     background: transparent;
     backdrop-filter:  blur(30px);
     font-family: 'Arial', sans-serif;
-    box-shadow: 0px 0px 10px rgba(213, 209, 209, 0.8);
+    box-shadow: 0px 0px 20px rgba(213, 209, 209, 0.8);
     transition: 0.5s ease;
 }
 
+.titulo_do_form {
+    font-family: 'FonteLogo', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+    text-decoration:  bold;
+}
+
 .cadastro:hover {
-    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.9);
 }
 
 .form-group {

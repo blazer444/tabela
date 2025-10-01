@@ -17,11 +17,19 @@
 
     <header class="cabecalho">
         <div>
-            <h1 class="titulo">CADASTRO CLIENTE</h1>
+            <h1 class="titulo">CADASTRO</h1>
         </div>
     </header>
 
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Cadastro</a></li>
+            <li><a href="tabela.html">Tabela</a></li>
+        </ul>
+    </div>
+
     <div class="cadastro">
+        <h1 class="titulo_do_form">Cadastro Pessoal</h1>
         <form>
 
             <div class="row mb-3">
@@ -65,31 +73,26 @@
                     <label for="telefoneInput" class="form-label">Telefone</label>
                     <input type="text" class="form-control" id="telefoneInput" placeholder="(00) 00000-0000">
                 </div>
-                <div class="col-md-2">
-                    <label for="faculdadeInput" class="form-label">Faculdade</label>
-                    <input type="text" class="form-control" id="faculdadeInput" placeholder="FATEC Franca">
+                <div class="col-md-3">
+                    <label for="nomemaeInput" class="form-label">Nome da Mãe</label>
+                    <input type="text" class="form-control" id="nomemaeInput" placeholder="Nome da Mãe">
                 </div>
-                <div class="col-md-2">
-                    <label for="cursoInput" class="form-label">Curso</label>
-                    <input type="text" class="form-control" id="cursoInput"
-                        placeholder="Desenvolvimento de Software Multiplataforma">
+                <div class="col-md-3">
+                    <label for="nomepaiInput" class="form-label">Nome do Pai</label>
+                    <input type="text" class="form-control" id="nomepaiInput" placeholder="Nome do Pai (Se houver)">
                 </div>
-                <div class="col-md-2">
-                    <label for="apelidocursoInput" class="form-label">Apelido do Curso</label>
-                    <input type="text" class="form-control" id="apelidocursoInput" placeholder="DSM">
-                </div>
-                <div class="col-md-2">
-                    <label for="periodoInput" class="form-label">Periodo</label>
-                    <input type="text" class="form-control" id="periodoInput" placeholder="Noturno">
-                </div>
-            </div>
-
-            <!-- LINHA 4: ENDEREÇO -->
-            <div class="row mb-3">
                 <div class="col-md-2">
                     <label for="logradouro" class="form-label">Endereço</label>
                     <input type="text" class="form-control" id="logradouro" placeholder="Rua, Av, Trav,...">
                 </div>
+            </div>
+                
+                <!-- LINHA 4: ENDEREÇO -->
+                <div class="row mb-3">
+                    <div class="col-md-2">
+                        <label for="bairroInput" class="form-label">Bairro</label>
+                        <input type="text" class="form-control" id="bairroInput" placeholder="Bairro">
+                    </div>
                 <div class="col-md-2">
                     <label for="cepInput" class="form-label">CEP</label>
                     <input type="text" class="form-control" id="cepInput" placeholder="00000-000">
@@ -117,23 +120,23 @@
                 <div align="center">
                     <button type="button" onclick="salvar()" class="btn btn-outline-success">Salvar</button>
                 </div>
+    </div>
 
-        </form>
 
 
-                <!-- JavaScript (Opcional) -->
-                <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-                    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                    crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-                    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-                    crossorigin="anonymous"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-                    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-                    crossorigin="anonymous"></script>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
-                <script src="./script/script.js"></script>
+    <script src="./script/script.js"></script>
 </body>
 
 </html>
