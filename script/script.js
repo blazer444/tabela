@@ -10,3 +10,9 @@ function ler() {
  function salvar() {
     alert("Gravando Dados!!")
  }
+
+    console.log("Fechando Execução do Script 03")
+
+    function limpar() {
+        alert("Limpando Dados!!")
+    }
