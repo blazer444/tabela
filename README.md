@@ -3,6 +3,7 @@
 Este projeto é um sistema simples de **cadastro pessoal** e **cadastro estudantil**, desenvolvido em **HTML e CSS**, com inspiração do **IOS 26** (Liquid Glass) Da Apple, lançado no ano de 2025.  
 Ele foi feito para treinar a criação de formulários organizados e responsivos, separados em duas páginas principais:
 
+## 🔗 Acesse a versão final aqui: [Tabela Cadastro](https://tabela-phi-vert.vercel.app/)
 ---
 
 ## 🔹 Páginas do Sistema
