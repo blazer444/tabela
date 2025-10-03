@@ -30,7 +30,7 @@
 
 
     <div class="cadastro">
-        <h1 class="titulo_do_form">Cadastro Pessoal</h1>
+        <h1 class="titulo_do_form">Cadastro Estudantil</h1>
         <form>
 
             <div class="row mb-3">
@@ -66,78 +66,218 @@
                     <label for="sexoInput" class="form-label">Sexo</label>
                     <input type="text" class="form-control" id="sexoInput" placeholder="Masculino/Feminino">
                 </div>
-            </div>
-
-            <!-- LINHA 3: FORMAÇÃO -->
-            <div class="row mb-3">
                 <div class="col-md-3">
                     <label for="telefoneInput" class="form-label">Telefone</label>
                     <input type="text" class="form-control" id="telefoneInput" placeholder="(00) 00000-0000">
                 </div>
-                <div class="col-md-3">
-                    <label for="nomemaeInput" class="form-label">Nome da Mãe</label>
-                    <input type="text" class="form-control" id="nomemaeInput" placeholder="Nome da Mãe">
-                </div>
-                <div class="col-md-3">
-                    <label for="nomepaiInput" class="form-label">Nome do Pai</label>
-                    <input type="text" class="form-control" id="nomepaiInput" placeholder="Nome do Pai (Se houver)">
-                </div>
-                <div class="col-md-2">
-                    <label for="logradouro" class="form-label">Endereço</label>
-                    <input type="text" class="form-control" id="logradouro" placeholder="Rua, Av, Trav,...">
-                </div>
             </div>
+        </form>
+    </div>
+    </div>
 
-            <!-- LINHA 4: ENDEREÇO -->
+    <div class="cadastro">
+        <h1 class="titulo_do_form">Dados Educacionais - Ensino Fundamental 1 (Primário)</h1>
+        <form>
             <div class="row mb-3">
-                <div class="col-md-2">
-                    <label for="bairroInput" class="form-label">Bairro</label>
-                    <input type="text" class="form-control" id="bairroInput" placeholder="Bairro">
+                <div class="col-md-3">
+                    <label for="ensinoInput" class="form-label">Instituição de Ensino</label>
+                    <input type="text" class="form-control" id="ensinoInput" placeholder="Nome da Instituição">
+                </div>
+                <div class="col-md-3">
+                    <label for="nmatriculaInput" class="form-label">Nº de Matricula</label>
+                    <input type="text" class="form-control" id="nmatriculaInput" placeholder="0000000">
                 </div>
                 <div class="col-md-2">
-                    <label for="cepInput" class="form-label">CEP</label>
-                    <input type="text" class="form-control" id="cepInput" placeholder="00000-000">
+                    <label for="periodoInput" class="form-label">Periodo/Ano</label>
+                    <input type="text" class="form-control" id="periodoInput" placeholder="2017">
                 </div>
-                <div class="col-md-1">
-                    <label for="numeroInput" class="form-label">Nº</label>
-                    <input type="text" class="form-control" id="numeroInput">
+                <div class="col-md-2 offset-0">
+                    <div class="form-label">
+                        <label for="formacao" class="form-label">Turno</label>
+                        <select id="formacao" class="form-select">
+                            <option selected>Matutino</option>
+                            <option>Vespertino</option>
+                            <option>Noturno</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- LINHA 4: DADOS EDUCACIONAIS -->
+                <div class="row mb-3">
+                    <div class="col-md-2">
+                        <label for="dataingressoInput" class="form-label">Data de Ingresso</label>
+                        <input type="date" class="form-control" id="dataingressoInput">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="previsaoconclusaoInput" class="form-label">Previsão de Conclusão</label>
+                        <input type="date" class="form-control" id="previsaoconclusaoInput">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="cidadeInput" class="form-label">Cidade</label>
+                        <input type="text" class="form-control" id="cidadeInput" placeholder="Sua Cidade">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="estadoInput" class="form-label">Estado</label>
+                        <input type="text" class="form-control" id="estadoInput" placeholder="Seu estado">
+                    </div>
+                </div>
+        </form>
+    </div>
+    </div>
+
+    <div class="cadastro">
+        <h1 class="titulo_do_form">Dados Educacionais - Ensino Fundamental 2 (Ginásio)</h1>
+        <form>
+            <div class="row mb-3">
+                <div class="col-md-3">
+                    <label for="ensinoInput" class="form-label">Instituição de Ensino</label>
+                    <input type="text" class="form-control" id="ensinoInput" placeholder="Nome da Instituição">
+                </div>
+                <div class="col-md-3">
+                    <label for="nmatriculaInput" class="form-label">Nº de Matricula</label>
+                    <input type="text" class="form-control" id="nmatriculaInput" placeholder="0000000">
                 </div>
                 <div class="col-md-2">
-                    <label for="complementInput" class="form-label">Complemento</label>
-                    <input type="text" class="form-control" id="complementoInput" placeholder="Casa/Apto/...">
+                    <label for="periodoInput" class="form-label">Periodo/Ano</label>
+                    <input type="text" class="form-control" id="periodoInput" placeholder="2017">
+                </div>
+                <div class="col-md-2 offset-0">
+                    <div class="form-label">
+                        <label for="formacao" class="form-label">Turno</label>
+                        <select id="formacao" class="form-select">
+                            <option selected>Matutino</option>
+                            <option>Vespertino</option>
+                            <option>Noturno</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- LINHA 4: DADOS EDUCACIONAIS -->
+                <div class="row mb-3">
+                    <div class="col-md-2">
+                        <label for="dataingressoInput" class="form-label">Data de Ingresso</label>
+                        <input type="date" class="form-control" id="dataingressoInput">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="previsaoconclusaoInput" class="form-label">Previsão de Conclusão</label>
+                        <input type="date" class="form-control" id="previsaoconclusaoInput">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="cidadeInput" class="form-label">Cidade</label>
+                        <input type="text" class="form-control" id="cidadeInput" placeholder="Sua Cidade">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="estadoInput" class="form-label">Estado</label>
+                        <input type="text" class="form-control" id="estadoInput" placeholder="Seu estado">
+                    </div>
+                </div>
+        </form>
+    </div>
+    </div>
+
+    <div class="cadastro">
+        <h1 class="titulo_do_form">Dados Educacionais - Ensino Médio (Colegial)</h1>
+        <form>
+            <div class="row mb-3">
+                <div class="col-md-3">
+                    <label for="ensinoInput" class="form-label">Instituição de Ensino</label>
+                    <input type="text" class="form-control" id="ensinoInput" placeholder="Nome da Instituição">
+                </div>
+                <div class="col-md-3">
+                    <label for="nmatriculaInput" class="form-label">Nº de Matricula</label>
+                    <input type="text" class="form-control" id="nmatriculaInput" placeholder="0000000">
                 </div>
                 <div class="col-md-2">
-                    <label for="cidadeInput" class="form-label">Cidade</label>
-                    <input type="text" class="form-control" id="cidadeInput" placeholder="Sua Cidade">
+                    <label for="periodoInput" class="form-label">Periodo/Ano</label>
+                    <input type="text" class="form-control" id="periodoInput" placeholder="2017">
+                </div>
+                <div class="col-md-2 offset-0">
+                    <div class="form-label">
+                        <label for="formacao" class="form-label">Turno</label>
+                        <select id="formacao" class="form-select">
+                            <option selected>Matutino</option>
+                            <option>Vespertino</option>
+                            <option>Noturno</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- LINHA 4: DADOS EDUCACIONAIS -->
+                <div class="row mb-3">
+                    <div class="col-md-2">
+                        <label for="dataingressoInput" class="form-label">Data de Ingresso</label>
+                        <input type="date" class="form-control" id="dataingressoInput">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="previsaoconclusaoInput" class="form-label">Previsão de Conclusão</label>
+                        <input type="date" class="form-control" id="previsaoconclusaoInput">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="cidadeInput" class="form-label">Cidade</label>
+                        <input type="text" class="form-control" id="cidadeInput" placeholder="Sua Cidade">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="estadoInput" class="form-label">Estado</label>
+                        <input type="text" class="form-control" id="estadoInput" placeholder="Seu estado">
+                    </div>
+                </div>
+        </form>
+    </div>
+    </div>
+
+    <div class="cadastro">
+        <h1 class="titulo_do_form">Dados do Responsável</h1>
+        <form>
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="nomeresponsavelInput" class="form-label">None do Responsável</label>
+                    <input type="text" class="form-control" id="nomeresponsavelInput" placeholder="Nome do Responsável">
                 </div>
                 <div class="col-md-2">
-                    <label for="estadoInput" class="form-label">Estado</label>
-                    <input type="text" class="form-control" id="estadoInput" placeholder="Seu estado">
+                    <label for="telefoneresponsavelInput" class="form-label">Telefone do Responsável</label>
+                    <input type="text" class="form-control" id="telefoneresponsavelInput" placeholder="(00) 00000-0000">
                 </div>
-            </div>
-
-            <h>
-                <br>
-                <div display="inline" class="col-md-12 text-center">
-                    <button type="button" onclick="salvar()" class="btn btn-outline-light">Salvar</button>
-                    <button type="button" onclick="limpar()" class="btn btn-outline-warning">Limpar</button>
+                <div class="col-md-3">
+                    <label for="emailresponsavelInput" class="form-label">Email do Responsavel</label>
+                    <input type="mail" class="form-control" id="emailresponsavelInput" placeholder="mail@example.com">
                 </div>
+                <div class="col-md-2 offset-0">
+                    <div class="form-label">
+                        <label for="formacao" class="form-label">Parentesco</label>
+                        <select id="formacao" class="form-select">
+                            <option>Mãe</option>
+                            <option>Pai</option>
+                            <option>Avó</option>
+                            <option>Avô</option>
+                            <option>Outro</option>
+                        </select>
+                    </div>
+                </div>
+        </form>
+    </div>
+
+    <h>
+        <br>
+        <div display="inline" class="col-md-12 text-center">
+            <button type="button" onclick="salvar()" class="btn btn-outline-light">Salvar</button>
+            <button type="button" onclick="limpar()" class="btn btn-outline-warning">Limpar</button>
+        </div>
 
 
 
-                <!-- JavaScript (Opcional) -->
-                <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-                    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                    crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-                    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-                    crossorigin="anonymous"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-                    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-                    crossorigin="anonymous"></script>
+        <!-- JavaScript (Opcional) -->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 
-                <script src="./script/script.js"></script>
+        <script src="./script/script.js"></script>
 </body>
 
 </html>
