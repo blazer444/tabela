@@ -53,17 +53,6 @@ Cada seção contém:
 
 👉 Também possui os botões **Salvar** e **Limpar**.
 
-📂 cadastro-estudantil
- ├── 📂 prints
- │    ├── cadastro-pessoal.png
- │    ├── cadastro-estudantil1.png
- │    ├── cadastro-estudantil2.png
- │
- ├── index.html
- ├── tabela.html
- ├── style.css
- ├── README.md
-
 ---
 
 ## 🛠️ Tecnologias Utilizadas
